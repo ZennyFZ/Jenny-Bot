@@ -29,7 +29,7 @@ bot.on("messageCreate", async (message) => {
         if(command === "awake") {
             message.channel.send("Mèo xanh đã awakened")
         }
-    }
+    } //testing
 })
 
 bot.login(config.token)
