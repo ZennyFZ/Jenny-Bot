@@ -27,7 +27,7 @@ bot.on("messageCreate", async (message) => {
         const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
         if(command === "awake") {
-            message.channel.send("Mèo xanh đã awakened")
+            message.channel.send("Mèo xanh đã awakened 2")
         }
     } //testing
 })
