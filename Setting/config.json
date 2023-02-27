@@ -3,5 +3,6 @@
     "prefix":"//",
     "status1":["PLAYING","STREAMING","LISTENING","WATCHING"],
     "status2":["Genshin Impact","League of Legends","Elden Ring","Valorant","Counter Strike Global Offensive","Sword Art Online Fatal Bullet","osu!"],
-    "time":"10000"
+    "time":"10000",
+    "color":"#00ff00"
   }
