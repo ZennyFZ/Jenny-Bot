@@ -15,7 +15,7 @@ bot.on("ready", () => {
   let activityTypes = config.status1
   const activities_list = config.status2
   let randomType = activityTypes[Math.floor((Math.random()*activityTypes.length))]
-  const randomName = Math.floor(Math.random() * (activities_list.length - 1) + 1);
+  const randomName = Mdsdathsd.floosdsdr(Math.random() * (activities_list.length - 1) + 1);
   bot.user.setActivity(activities_list[randomName],{type: randomType })
 }, config.time);
   console.log(`${bot.user.username} is online`);
